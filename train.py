@@ -1,19 +1,3 @@
-# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
-"""
-Train a YOLOv5 model on a custom dataset.
-Models and datasets download automatically from the latest YOLOv5 release.
-
-Usage - Single-GPU training:
-    $ python train.py --data coco128.yaml --weights yolov5s.pt --img 640  # from pretrained (recommended)
-    $ python train.py --data coco128.yaml --weights '' --cfg yolov5s.yaml --img 640  # from scratch
-
-Usage - Multi-GPU DDP training:
-    $ python -m torch.distributed.run --nproc_per_node 4 --master_port 1 train.py --data coco128.yaml --weights yolov5s.pt --img 640 --device 0,1,2,3
-
-Models:     https://github.com/ultralytics/yolov5/tree/master/models
-Datasets:   https://github.com/ultralytics/yolov5/tree/master/data
-Tutorial:   https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data
-"""
 
 import argparse
 import math
@@ -65,13 +49,13 @@ RANK = int(os.getenv('RANK', -1))
 WORLD_SIZE = int(os.getenv('WORLD_SIZE', 1))
 GIT_INFO = check_git_info()
 
-
+print("Start")
 def train(hyp, opt, device, callbacks):  # hyp is path/to/hyp.yaml or hyp dictionary
     save_dir, epochs, batch_size, weights, single_cls, evolve, data, cfg, resume, noval, nosave, workers, freeze = \
         Path(opt.save_dir), opt.epochs, opt.batch_size, opt.weights, opt.single_cls, opt.evolve, opt.data, opt.cfg, \
         opt.resume, opt.noval, opt.nosave, opt.workers, opt.freeze
     callbacks.run('on_pretrain_routine_start')
-
+    print("in train")
     # Directories
     w = save_dir / 'weights'  # weights dir
     (w.parent if evolve else w).mkdir(parents=True, exist_ok=True)  # make dir
@@ -432,6 +416,7 @@ def train(hyp, opt, device, callbacks):  # hyp is path/to/hyp.yaml or hyp dictio
 
 
 def parse_opt(known=False):
+    print("in parse_opt")
     parser = argparse.ArgumentParser()
     parser.add_argument('--weights', type=str, default=ROOT / 'yolov5s.pt', help='initial weights path')
     parser.add_argument('--cfg', type=str, default='', help='model.yaml path')
@@ -473,11 +458,11 @@ def parse_opt(known=False):
     parser.add_argument('--upload_dataset', nargs='?', const=True, default=False, help='Upload data, "val" option')
     parser.add_argument('--bbox_interval', type=int, default=-1, help='Set bounding-box image logging interval')
     parser.add_argument('--artifact_alias', type=str, default='latest', help='Version of dataset artifact to use')
-
     return parser.parse_known_args()[0] if known else parser.parse_args()
 
 
 def main(opt, callbacks=Callbacks()):
+    print("in main")
     # Checks
     if RANK in {-1, 0}:
         print_args(vars(opt))
@@ -621,6 +606,7 @@ def main(opt, callbacks=Callbacks()):
 
 
 def run(**kwargs):
+    print("in run")
     # Usage: import train; train.run(data='coco128.yaml', imgsz=320, weights='yolov5m.pt')
     opt = parse_opt(True)
     for k, v in kwargs.items():
@@ -632,3 +618,4 @@ def run(**kwargs):
 if __name__ == "__main__":
     opt = parse_opt()
     main(opt)
+print("The End")
