@@ -1,4 +1,6 @@
 # Repo-specific GitIgnore ----------------------------------------------------------------------------------------------
+datasetes/
+smartathone-dataset/
 *.jpg
 *.jpeg
 *.png
