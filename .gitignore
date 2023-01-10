@@ -1,5 +1,5 @@
 # Repo-specific GitIgnore ----------------------------------------------------------------------------------------------
-datasetes/
+datasetes/visual-pollution/train/
 smartathone-dataset/
 *.jpg
 *.jpeg
