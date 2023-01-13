@@ -79,7 +79,9 @@ def run(
         half=False,  # use FP16 half-precision inference
         dnn=False,  # use OpenCV DNN for ONNX inference
         vid_stride=1,  # video frame-rate stride
+        save_coordinates=0
 ):
+    save_coordinates = save_coordinates
     source = str(source)
     save_img = not nosave and not source.endswith('.txt')  # save inference images
     is_file = Path(source).suffix[1:] in (IMG_FORMATS + VID_FORMATS)
@@ -126,6 +128,9 @@ def run(
         with dt[1]:
             visualize = increment_path(save_dir / Path(path).stem, mkdir=True) if visualize else False
             pred = model(im, augment=augment, visualize=visualize)
+            # TODO: print the prediction coorinates
+            # for one_pre in pred:
+            #     print(one_pre['class'] + "\t" + one_pre['xmax'] + "\t" + one_pre['ymax'] + "\t" + one_pre['xmin'] + "\t" + one_pre['ymin'])
 
         # NMS
         with dt[2]:
@@ -161,6 +166,15 @@ def run(
 
                 # Write results
                 for *xyxy, conf, cls in reversed(det):
+                    if(save_coordinates == 1):
+                        x_min, y_min, x_max, y_max = (torch.tensor(xyxy)).tolist()
+                        x_max, y_max, x_min, y_min = str(x_max), str(y_max), str(x_min), str(y_min)
+                        label_as_txt = ' '.join(str(names[int(c)])+" "+x_min+" "+y_min+" "+x_max+" "+y_max+"\n")
+                        label_as_csv = f'{int(c)},{p.name},{names[int(c)]},{x_max},{x_min},{y_max},{y_min}\n'
+                        with open(f'datasets/visual-pollution/test/labels/{p.name}.txt',"a") as file:
+                            file.write(label_as_txt)
+                        with open(f'datasets/visual-pollution/test/test.csv',"a") as file:
+                            file.write(label_as_csv)
                     if save_txt:  # Write to file
                         xywh = (xyxy2xywh(torch.tensor(xyxy).view(1, 4)) / gn).view(-1).tolist()  # normalized xywh
                         line = (cls, *xywh, conf) if save_conf else (cls, *xywh)  # label format
@@ -205,7 +219,6 @@ def run(
 
         # Print time (inference-only)
         LOGGER.info(f"{s}{'' if len(det) else '(no detections), '}{dt[1].dt * 1E3:.1f}ms")
-
     # Print results
     t = tuple(x.t / seen * 1E3 for x in dt)  # speeds per image
     LOGGER.info(f'Speed: %.1fms pre-process, %.1fms inference, %.1fms NMS per image at shape {(1, 3, *imgsz)}' % t)
@@ -245,6 +258,7 @@ def parse_opt():
     parser.add_argument('--half', action='store_true', help='use FP16 half-precision inference')
     parser.add_argument('--dnn', action='store_true', help='use OpenCV DNN for ONNX inference')
     parser.add_argument('--vid-stride', type=int, default=1, help='video frame-rate stride')
+    parser.add_argument('--save_coordinates', type=int, default=0, help='save xmax, xmin, ymax, ymin to a file')
     opt = parser.parse_args()
     opt.imgsz *= 2 if len(opt.imgsz) == 1 else 1  # expand
     print_args(vars(opt))
