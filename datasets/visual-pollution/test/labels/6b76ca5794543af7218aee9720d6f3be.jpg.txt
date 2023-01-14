@@ -1,2 +1,2 @@
-B A D _ B I L L B O A R D   9 1 1 . 0   2 5 9 . 0   1 0 9 6 . 0   4 4 4 . 0 
-B A D _ B I L L B O A R D   4 2 8 . 0   2 4 8 . 0   6 9 9 . 0   4 5 6 . 0 
+BAD_BILLBOARD 911.0 259.0 1096.0 444.0
+BAD_BILLBOARD 428.0 248.0 699.0 456.0

@@ -1,12 +1,6 @@
-S A N D _ O N _ R O A D   1 7 9 0 . 0   2 9 2 . 0   1 9 1 9 . 0   5 5 5 . 0 
-C O N S T R U C T I O N _ R O A D   7 8 1 . 0   4 0 2 . 0   1 0 0 8 . 0   5 6 0 . 0 
-C O N S T R U C T I O N _ R O A D   1 5 5 0 . 0   3 8 3 . 0   1 7 4 9 . 0   5 1 1 . 0 
-C O N S T R U C T I O N _ R O A D   4 . 0   3 3 0 . 0   2 0 9 . 0   7 9 5 . 0 
-C O N S T R U C T I O N _ R O A D   8 9 8 . 0   4 0 8 . 0   1 0 5 5 . 0   5 3 6 . 0 
-C O N S T R U C T I O N _ R O A D   1 8 0 0 . 0   2 8 0 . 0   1 9 2 0 . 0   5 8 7 . 0 
-S A N D _ O N _ R O A D   1 5 4 7 . 0   4 6 0 . 0   1 9 2 0 . 0   7 6 0 . 0 
-C L U T T E R _ S I D E W A L K   1 2 1 0 . 0   4 2 5 . 0   1 3 7 3 . 0   5 3 4 . 0 
-C O N S T R U C T I O N _ R O A D   9 8 7 . 0   4 1 2 . 0   1 1 0 4 . 0   5 2 2 . 0 
-C O N S T R U C T I O N _ R O A D   6 0 6 . 0   3 9 9 . 0   9 5 7 . 0   5 9 1 . 0 
-C O N S T R U C T I O N _ R O A D   3 7 5 . 0   3 7 7 . 0   7 1 9 . 0   6 6 2 . 0 
-C O N S T R U C T I O N _ R O A D   7 . 0   3 0 0 . 0   5 7 4 . 0   7 5 0 . 0 
+CONSTRUCTION_ROAD 1547.0 460.0 1920.0 760.0
+CLUTTER_SIDEWALK 1210.0 425.0 1373.0 534.0
+CONSTRUCTION_ROAD 987.0 412.0 1104.0 522.0
+CONSTRUCTION_ROAD 606.0 399.0 957.0 591.0
+CONSTRUCTION_ROAD 375.0 377.0 719.0 662.0
+CONSTRUCTION_ROAD 7.0 300.0 574.0 750.0

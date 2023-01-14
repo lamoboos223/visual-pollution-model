@@ -169,7 +169,7 @@ def run(
                     if(save_coordinates == 1):
                         x_min, y_min, x_max, y_max = (torch.tensor(xyxy)).tolist()
                         x_max, y_max, x_min, y_min = str(x_max), str(y_max), str(x_min), str(y_min)
-                        label_as_txt = ' '.join(str(names[int(c)])+" "+x_min+" "+y_min+" "+x_max+" "+y_max+"\n")
+                        label_as_txt = str(names[int(c)])+" "+x_min+" "+y_min+" "+x_max+" "+y_max+"\n"
                         label_as_csv = f'{int(c)},{p.name},{names[int(c)]},{x_max},{x_min},{y_max},{y_min}\n'
                         with open(f'datasets/visual-pollution/test/labels/{p.name}.txt',"a") as file:
                             file.write(label_as_txt)

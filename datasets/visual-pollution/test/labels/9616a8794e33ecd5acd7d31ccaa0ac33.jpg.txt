@@ -1,4 +1,2 @@
-G A R B A G E   1 5 4 6 . 0   5 5 3 . 0   1 6 0 8 . 0   6 5 9 . 0 
-G A R B A G E   6 4 0 . 0   3 7 8 . 0   8 7 0 . 0   5 5 1 . 0 
-C O N S T R U C T I O N _ R O A D   4 4 2 . 0   3 9 6 . 0   7 9 1 . 0   5 5 9 . 0 
-C O N S T R U C T I O N _ R O A D   8 0 6 . 0   3 8 5 . 0   1 1 0 2 . 0   5 6 0 . 0 
+CONSTRUCTION_ROAD 442.0 396.0 791.0 559.0
+CONSTRUCTION_ROAD 806.0 385.0 1102.0 560.0

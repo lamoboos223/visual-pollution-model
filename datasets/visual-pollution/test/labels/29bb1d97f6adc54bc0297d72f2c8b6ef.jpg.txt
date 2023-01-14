@@ -1,12 +1,5 @@
-G A R B A G E   0 . 0   3 5 3 . 0   2 7 6 . 0   6 0 8 . 0 
-C L U T T E R _ S I D E W A L K   1 4 9 0 . 0   3 3 8 . 0   1 5 7 1 . 0   4 4 3 . 0 
-G A R B A G E   7 6 . 0   3 5 9 . 0   5 5 2 . 0   5 9 3 . 0 
-C L U T T E R _ S I D E W A L K   3 4 4 . 0   3 3 0 . 0   9 2 4 . 0   5 9 3 . 0 
-C L U T T E R _ S I D E W A L K   1 6 8 7 . 0   2 8 0 . 0   1 9 0 5 . 0   4 8 1 . 0 
-C L U T T E R _ S I D E W A L K   4 3 7 . 0   3 8 3 . 0   5 7 1 . 0   5 1 4 . 0 
-G A R B A G E   7 9 6 . 0   3 3 9 . 0   9 8 0 . 0   5 0 0 . 0 
-G A R B A G E   5 4 0 . 0   5 0 7 . 0   7 3 7 . 0   6 1 7 . 0 
-G A R B A G E   1 4 4 9 . 0   2 4 7 . 0   1 9 1 5 . 0   5 0 8 . 0 
-C L U T T E R _ S I D E W A L K   1 7 1 5 . 0   2 9 9 . 0   1 9 0 1 . 0   4 6 8 . 0 
-G A R B A G E   8 6 4 . 0   2 8 9 . 0   1 5 5 0 . 0   5 4 8 . 0 
-C L U T T E R _ S I D E W A L K   4 8 6 . 0   5 5 0 . 0   6 5 5 . 0   7 0 8 . 0 
+GARBAGE 540.0 507.0 737.0 617.0
+GARBAGE 1449.0 247.0 1915.0 508.0
+CLUTTER_SIDEWALK 1715.0 299.0 1901.0 468.0
+GARBAGE 864.0 289.0 1550.0 548.0
+CLUTTER_SIDEWALK 486.0 550.0 655.0 708.0

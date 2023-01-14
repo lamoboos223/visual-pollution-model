@@ -1,3 +1,1 @@
-C O N S T R U C T I O N _ R O A D   6 9 5 . 0   2 5 0 . 0   7 5 4 . 0   3 2 5 . 0 
-B A D _ B I L L B O A R D   9 2 6 . 0   3 7 0 . 0   1 0 1 5 . 0   4 5 7 . 0 
-C O N S T R U C T I O N _ R O A D   3 5 5 . 0   3 7 1 . 0   5 1 5 . 0   4 6 4 . 0 
+CONSTRUCTION_ROAD 355.0 371.0 515.0 464.0

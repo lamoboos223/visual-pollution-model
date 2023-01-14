@@ -1,5 +1,2 @@
-G A R B A G E   0 . 0   5 4 4 . 0   1 9 0 . 0   8 3 9 . 0 
-C L U T T E R _ S I D E W A L K   8 8 3 . 0   5 3 8 . 0   9 4 8 . 0   6 0 7 . 0 
-G A R B A G E   1 1 4 2 . 0   5 9 7 . 0   1 8 9 4 . 0   8 8 7 . 0 
-C L U T T E R _ S I D E W A L K   3 4 1 . 0   5 6 1 . 0   1 1 6 2 . 0   8 6 4 . 0 
-C L U T T E R _ S I D E W A L K   9 . 0   5 5 2 . 0   5 9 5 . 0   8 6 3 . 0 
+CLUTTER_SIDEWALK 341.0 561.0 1162.0 864.0
+CLUTTER_SIDEWALK 9.0 552.0 595.0 863.0

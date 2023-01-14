@@ -1,8 +1,4 @@
-S A N D _ O N _ R O A D   0 . 0   3 2 2 . 0   1 9 0 . 0   6 2 8 . 0 
-C L U T T E R _ S I D E W A L K   4 9 8 . 0   3 7 3 . 0   9 6 0 . 0   6 7 5 . 0 
-S A N D _ O N _ R O A D   1 0 1 . 0   3 5 0 . 0   8 2 9 . 0   6 7 1 . 0 
-C L U T T E R _ S I D E W A L K   0 . 0   3 3 4 . 0   4 7 1 . 0   6 5 4 . 0 
-C L U T T E R _ S I D E W A L K   1 8 1 . 0   3 5 7 . 0   8 4 0 . 0   6 7 2 . 0 
-S A N D _ O N _ R O A D   6 3 1 . 0   3 7 4 . 0   1 4 4 1 . 0   7 4 3 . 0 
-S A N D _ O N _ R O A D   1 0 9 6 . 0   4 0 5 . 0   1 8 3 0 . 0   7 6 5 . 0 
-S A N D _ O N _ R O A D   1 6 0 8 . 0   4 3 9 . 0   1 9 2 0 . 0   7 6 7 . 0 
+SAND_ON_ROAD 181.0 357.0 840.0 672.0
+SAND_ON_ROAD 631.0 374.0 1441.0 743.0
+SAND_ON_ROAD 1096.0 405.0 1830.0 765.0
+SAND_ON_ROAD 1608.0 439.0 1920.0 767.0

@@ -1,6 +1,5 @@
-S A N D _ O N _ R O A D   1 6 9 1 . 0   2 8 7 . 0   1 9 2 0 . 0   6 1 8 . 0 
-C L U T T E R _ S I D E W A L K   1 3 5 1 . 0   2 1 5 . 0   1 6 7 4 . 0   3 8 4 . 0 
-S A N D _ O N _ R O A D   1 5 8 6 . 0   1 7 9 . 0   1 9 1 0 . 0   3 6 1 . 0 
-S A N D _ O N _ R O A D   1 1 8 3 . 0   2 1 7 . 0   1 4 9 8 . 0   4 0 6 . 0 
-S A N D _ O N _ R O A D   6 7 6 . 0   3 9 0 . 0   1 4 8 3 . 0   8 1 6 . 0 
-C L U T T E R _ S I D E W A L K   1 2 1 8 . 0   3 2 0 . 0   1 9 1 1 . 0   6 8 2 . 0 
+SAND_ON_ROAD 1351.0 215.0 1674.0 384.0
+SAND_ON_ROAD 1586.0 179.0 1910.0 361.0
+SAND_ON_ROAD 1183.0 217.0 1498.0 406.0
+SAND_ON_ROAD 676.0 390.0 1483.0 816.0
+CLUTTER_SIDEWALK 1218.0 320.0 1911.0 682.0

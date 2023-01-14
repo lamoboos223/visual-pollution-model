@@ -1,4 +1,4 @@
-G A R B A G E   6 3 4 . 0   3 7 7 . 0   1 6 1 5 . 0   6 3 6 . 0 
-C L U T T E R _ S I D E W A L K   1 2 8 6 . 0   4 4 6 . 0   1 4 6 3 . 0   5 7 2 . 0 
-G A R B A G E   0 . 0   3 3 6 . 0   7 2 4 . 0   6 2 5 . 0 
-C L U T T E R _ S I D E W A L K   1 4 6 9 . 0   3 9 5 . 0   1 9 2 0 . 0   6 5 4 . 0 
+GARBAGE 634.0 377.0 1615.0 636.0
+CLUTTER_SIDEWALK 1286.0 446.0 1463.0 572.0
+GARBAGE 0.0 336.0 724.0 625.0
+CLUTTER_SIDEWALK 1469.0 395.0 1920.0 654.0

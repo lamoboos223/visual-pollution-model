@@ -1,7 +1,1 @@
-F A D E D _ S I G N A G E   4 0 6 . 0   4 3 1 . 0   6 3 9 . 0   5 9 1 . 0 
-C L U T T E R _ S I D E W A L K   4 6 . 0   4 8 5 . 0   4 7 5 . 0   7 2 3 . 0 
-C L U T T E R _ S I D E W A L K   5 1 1 . 0   4 1 9 . 0   7 1 4 . 0   5 8 8 . 0 
-C L U T T E R _ S I D E W A L K   1 1 9 5 . 0   1 9 2 . 0   1 4 3 4 . 0   3 6 7 . 0 
-B A D _ B I L L B O A R D   0 . 0   4 9 8 . 0   2 7 1 . 0   7 9 8 . 0 
-C L U T T E R _ S I D E W A L K   6 0 8 . 0   2 5 8 . 0   7 2 2 . 0   4 2 5 . 0 
-F A D E D _ S I G N A G E   6 2 8 . 0   3 5 7 . 0   7 4 4 . 0   4 9 6 . 0 
+CONSTRUCTION_ROAD 628.0 357.0 744.0 496.0

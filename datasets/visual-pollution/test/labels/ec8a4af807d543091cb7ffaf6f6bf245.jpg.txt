@@ -1,3 +1,2 @@
-F A D E D _ S I G N A G E   1 7 9 4 . 0   5 7 . 0   1 9 2 0 . 0   3 7 3 . 0 
-F A D E D _ S I G N A G E   5 3 8 . 0   2 1 1 . 0   8 2 3 . 0   3 4 8 . 0 
-C O N S T R U C T I O N _ R O A D   3 4 2 . 0   1 8 3 . 0   6 0 3 . 0   3 5 4 . 0 
+CONSTRUCTION_ROAD 538.0 211.0 823.0 348.0
+CONSTRUCTION_ROAD 342.0 183.0 603.0 354.0

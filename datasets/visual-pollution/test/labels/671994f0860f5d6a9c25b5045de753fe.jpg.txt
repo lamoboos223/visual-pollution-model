@@ -1,10 +1,4 @@
-G A R B A G E   5 3 4 . 0   1 9 0 . 0   1 1 1 6 . 0   4 7 5 . 0 
-C O N S T R U C T I O N _ R O A D   3 3 2 . 0   2 9 9 . 0   1 0 6 3 . 0   9 3 9 . 0 
-C O N S T R U C T I O N _ R O A D   3 1 9 . 0   2 1 4 . 0   6 8 6 . 0   4 0 7 . 0 
-C O N S T R U C T I O N _ R O A D   7 2 2 . 0   2 3 9 . 0   1 2 8 5 . 0   4 8 3 . 0 
-C O N S T R U C T I O N _ R O A D   1 0 9 0 . 0   7 9 7 . 0   1 2 6 6 . 0   1 0 0 6 . 0 
-G A R B A G E   1 7 . 0   2 6 2 . 0   8 3 4 . 0   9 5 7 . 0 
-C O N S T R U C T I O N _ R O A D   8 7 8 . 0   7 9 9 . 0   1 0 8 5 . 0   1 0 0 9 . 0 
-G A R B A G E   1 2 7 9 . 0   2 6 3 . 0   1 9 1 2 . 0   9 4 8 . 0 
-C O N S T R U C T I O N _ R O A D   6 7 3 . 0   2 9 2 . 0   1 5 1 9 . 0   9 4 7 . 0 
-C O N S T R U C T I O N _ R O A D   1 1 2 8 . 0   2 1 9 . 0   1 6 2 5 . 0   5 2 4 . 0 
+GARBAGE 878.0 799.0 1085.0 1009.0
+GARBAGE 1279.0 263.0 1912.0 948.0
+CONSTRUCTION_ROAD 673.0 292.0 1519.0 947.0
+CONSTRUCTION_ROAD 1128.0 219.0 1625.0 524.0

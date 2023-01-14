@@ -1,6 +1,4 @@
-G A R B A G E   1 6 1 1 . 0   2 8 6 . 0   1 9 1 8 . 0   7 2 7 . 0 
-C O N S T R U C T I O N _ R O A D   1 7 7 8 . 0   5 8 3 . 0   1 9 1 9 . 0   7 9 4 . 0 
-G A R B A G E   2 2 6 . 0   3 0 6 . 0   9 6 5 . 0   7 3 6 . 0 
-C O N S T R U C T I O N _ R O A D   1 . 0   3 0 7 . 0   4 8 2 . 0   7 4 0 . 0 
-C O N S T R U C T I O N _ R O A D   6 8 2 . 0   2 9 9 . 0   1 4 7 3 . 0   7 2 0 . 0 
-C O N S T R U C T I O N _ R O A D   1 2 0 8 . 0   2 8 9 . 0   1 8 8 2 . 0   7 1 6 . 0 
+CONSTRUCTION_ROAD 226.0 306.0 965.0 736.0
+CONSTRUCTION_ROAD 1.0 307.0 482.0 740.0
+CONSTRUCTION_ROAD 682.0 299.0 1473.0 720.0
+CONSTRUCTION_ROAD 1208.0 289.0 1882.0 716.0

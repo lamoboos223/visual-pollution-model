@@ -1,2 +1,2 @@
-C L U T T E R _ S I D E W A L K   7 1 4 . 0   4 0 3 . 0   1 8 9 6 . 0   8 6 4 . 0 
-C L U T T E R _ S I D E W A L K   8 . 0   3 5 7 . 0   8 5 9 . 0   8 4 2 . 0 
+CLUTTER_SIDEWALK 714.0 403.0 1896.0 864.0
+CLUTTER_SIDEWALK 8.0 357.0 859.0 842.0

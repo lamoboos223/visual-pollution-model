@@ -1,5 +1,4 @@
-C O N S T R U C T I O N _ R O A D   2 2 4 . 0   2 2 6 . 0   6 3 6 . 0   5 9 3 . 0 
-C O N S T R U C T I O N _ R O A D   9 6 8 . 0   3 3 5 . 0   1 1 4 0 . 0   4 7 8 . 0 
-C O N S T R U C T I O N _ R O A D   0 . 0   2 0 0 . 0   5 0 9 . 0   6 7 7 . 0 
-C O N S T R U C T I O N _ R O A D   6 2 1 . 0   3 0 4 . 0   8 2 7 . 0   4 7 3 . 0 
-C O N S T R U C T I O N _ R O A D   4 6 7 . 0   2 6 6 . 0   7 3 2 . 0   5 2 4 . 0 
+CONSTRUCTION_ROAD 968.0 335.0 1140.0 478.0
+CONSTRUCTION_ROAD 0.0 200.0 509.0 677.0
+CONSTRUCTION_ROAD 621.0 304.0 827.0 473.0
+CONSTRUCTION_ROAD 467.0 266.0 732.0 524.0

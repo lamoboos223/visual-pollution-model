@@ -1,5 +1,1 @@
-S A N D _ O N _ R O A D   1 6 7 6 . 0   1 2 6 . 0   1 9 1 9 . 0   7 6 6 . 0 
-C O N S T R U C T I O N _ R O A D   0 . 0   2 3 0 . 0   3 3 3 . 0   8 0 7 . 0 
-C O N S T R U C T I O N _ R O A D   5 7 3 . 0   1 8 4 . 0   1 4 8 7 . 0   7 9 9 . 0 
-S A N D _ O N _ R O A D   1 2 5 2 . 0   1 5 1 . 0   1 9 2 0 . 0   7 9 4 . 0 
-C O N S T R U C T I O N _ R O A D   2 0 . 0   2 0 7 . 0   1 0 0 3 . 0   8 1 7 . 0 
+CONSTRUCTION_ROAD 20.0 207.0 1003.0 817.0

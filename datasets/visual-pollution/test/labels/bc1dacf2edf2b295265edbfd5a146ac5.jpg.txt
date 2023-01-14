@@ -1,8 +1,1 @@
-G A R B A G E   0 . 0   4 1 0 . 0   1 4 6 . 0   6 5 8 . 0 
-C L U T T E R _ S I D E W A L K   1 2 0 8 . 0   4 5 0 . 0   1 2 9 9 . 0   5 7 0 . 0 
-G A R B A G E   4 8 2 . 0   3 9 5 . 0   1 0 2 8 . 0   6 5 4 . 0 
-C L U T T E R _ S I D E W A L K   1 8 5 . 0   4 0 0 . 0   7 3 7 . 0   6 5 9 . 0 
-C L U T T E R _ S I D E W A L K   7 9 6 . 0   3 8 3 . 0   1 4 5 1 . 0   6 4 7 . 0 
-C L U T T E R _ S I D E W A L K   1 1 9 8 . 0   3 8 3 . 0   1 7 0 1 . 0   6 4 7 . 0 
-C L U T T E R _ S I D E W A L K   0 . 0   4 1 1 . 0   4 4 2 . 0   6 5 8 . 0 
-C L U T T E R _ S I D E W A L K   1 4 8 7 . 0   3 7 5 . 0   1 9 2 0 . 0   6 4 8 . 0 
+CLUTTER_SIDEWALK 1487.0 375.0 1920.0 648.0

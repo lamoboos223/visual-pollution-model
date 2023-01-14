@@ -1,3 +1,2 @@
-G A R B A G E   1 8 2 8 . 0   3 3 6 . 0   1 9 2 0 . 0   5 0 0 . 0 
-C O N S T R U C T I O N _ R O A D   1 4 1 7 . 0   3 3 2 . 0   1 6 2 8 . 0   5 2 8 . 0 
-C O N S T R U C T I O N _ R O A D   6 6 9 . 0   4 0 4 . 0   8 4 6 . 0   6 0 4 . 0 
+GARBAGE 1417.0 332.0 1628.0 528.0
+CONSTRUCTION_ROAD 669.0 404.0 846.0 604.0

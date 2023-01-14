@@ -1,4 +1,1 @@
-G A R B A G E   1 2 6 . 0   5 3 8 . 0   1 1 2 5 . 0   1 0 7 7 . 0 
-C L U T T E R _ S I D E W A L K   6 9 0 . 0   5 8 4 . 0   1 6 7 3 . 0   1 0 8 0 . 0 
-C L U T T E R _ S I D E W A L K   0 . 0   5 3 5 . 0   5 6 3 . 0   1 0 7 8 . 0 
-C L U T T E R _ S I D E W A L K   1 4 2 8 . 0   7 2 6 . 0   1 7 1 2 . 0   9 6 1 . 0 
+GARBAGE 1428.0 726.0 1712.0 961.0
