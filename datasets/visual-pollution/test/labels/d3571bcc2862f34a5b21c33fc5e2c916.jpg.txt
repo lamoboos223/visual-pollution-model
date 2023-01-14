@@ -1,0 +1,4 @@
+G A R B A G E   1 5 1 2 . 0   4 4 1 . 0   1 5 9 3 . 0   5 7 4 . 0 
+G A R B A G E   7 0 9 . 0   3 8 7 . 0   1 6 6 8 . 0   6 9 2 . 0 
+C L U T T E R _ S I D E W A L K   0 . 0   3 8 2 . 0   8 7 5 . 0   7 2 3 . 0 
+C L U T T E R _ S I D E W A L K   1 5 4 0 . 0   3 7 4 . 0   1 9 2 0 . 0   6 5 8 . 0 

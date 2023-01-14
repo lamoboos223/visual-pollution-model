@@ -1,7 +1,6 @@
 # Repo-specific GitIgnore ----------------------------------------------------------------------------------------------
 smartathone-dataset/
-*.txt
-*.csv
+datasets/visual-pollution/batches/*
 *.jpg
 *.jpeg
 *.png

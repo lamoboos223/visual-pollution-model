@@ -1,0 +1,4 @@
+G R A F F I T I   7 1 7 . 0   3 8 3 . 0   1 6 1 8 . 0   6 9 6 . 0 
+C L U T T E R _ S I D E W A L K   6 . 0   3 8 3 . 0   8 6 4 . 0   6 8 0 . 0 
+C L U T T E R _ S I D E W A L K   1 0 4 0 . 0   2 5 6 . 0   1 1 6 4 . 0   3 6 3 . 0 
+G R A F F I T I   1 5 1 5 . 0   4 2 4 . 0   1 9 2 0 . 0   6 8 4 . 0 

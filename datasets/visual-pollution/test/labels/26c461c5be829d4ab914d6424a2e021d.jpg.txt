@@ -1,0 +1,4 @@
+G A R B A G E   2 0 2 . 0   2 5 1 . 0   4 0 0 . 0   4 6 2 . 0 
+G A R B A G E   4 3 5 . 0   3 0 6 . 0   1 4 2 2 . 0   1 0 6 9 . 0 
+C O N S T R U C T I O N _ R O A D   1 2 2 9 . 0   3 3 4 . 0   1 9 2 0 . 0   1 0 6 2 . 0 
+C O N S T R U C T I O N _ R O A D   2 2 . 0   2 9 5 . 0   8 5 9 . 0   1 0 7 2 . 0 

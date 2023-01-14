@@ -1,0 +1,5 @@
+C L U T T E R _ S I D E W A L K   3 4 9 . 0   2 7 7 . 0   6 5 6 . 0   4 7 0 . 0 
+C L U T T E R _ S I D E W A L K   6 2 5 . 0   2 9 0 . 0   1 0 4 8 . 0   5 0 4 . 0 
+C L U T T E R _ S I D E W A L K   1 7 0 2 . 0   3 5 8 . 0   1 9 2 0 . 0   5 6 2 . 0 
+C L U T T E R _ S I D E W A L K   8 2 8 . 0   3 0 9 . 0   1 2 3 2 . 0   5 2 3 . 0 
+C L U T T E R _ S I D E W A L K   1 2 4 2 . 0   3 4 1 . 0   1 7 3 7 . 0   5 4 4 . 0 
