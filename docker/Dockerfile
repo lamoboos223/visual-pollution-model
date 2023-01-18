@@ -23,5 +23,6 @@ COPY best.pt runs/train/exp/weights
 
 # Set environment variables
 ENV OMP_NUM_THREADS=8
+ENV CONF=0.4
 
-ENTRYPOINT ["/bin/sh", "-c" , "python detect.py --weights runs/train/exp/weights/best.pt --img 640 --conf 0.3 --source runs/detect"]
+ENTRYPOINT ["/bin/sh", "-c" , "python detect.py --weights runs/train/exp/weights/best.pt --img 640 --conf $CONF --source runs/detect"]
