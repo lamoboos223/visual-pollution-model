@@ -12,16 +12,16 @@ RUN pip install --no-cache -r https://raw.githubusercontent.com/ultralytics/yolo
     torch torchvision
 
 # Create working directory
-RUN mkdir -p /usr/src/app/runs/train/exp/weights
+RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
-# Add training model
-ADD https://www.dropbox.com/s/tlf88v3g7p1r2ti/best.pt?dl=0 /usr/src/app/runs/train/exp/weights
-
 RUN git clone https://github.com/ultralytics/yolov5/. /usr/src/app
+
+# Add training model
+RUN mkdir -p runs/train/exp/weights
+COPY best.pt runs/train/exp/weights
 
 # Set environment variables
 ENV OMP_NUM_THREADS=8
 
-
-
+ENTRYPOINT ["/bin/sh", "-c" , "python detect.py --weights runs/train/exp/weights/best.pt --img 640 --conf 0.3 --source runs/detect"]
