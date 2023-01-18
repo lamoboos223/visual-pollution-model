@@ -18,4 +18,4 @@ Note: The result will be saved in `${IMAGES_PATH}/exp`
 
 | variable | default value | usage       | example                                                                                                          |
 | -------- | ------------- | ----------- | ---------------------------------------------------------------------------------------------------------------- |
-| CONF     | 0.4           | -e CONF=0.5 | `docker run -it -v /Users/jon/Desktop/images:/usr/src/app/runs/detect -e CONF=0.5 dorrahsq/pollution_detection ` |
+| CONF     | 0.4           | -e CONF=0.5 | `docker run -it -v images:/usr/src/app/runs/detect -e CONF=0.5 dorrahsq/pollution_detection ` |
